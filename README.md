@@ -1,0 +1,1 @@
+Starter for nextjs 15.

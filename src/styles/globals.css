@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --colour-background: 255 255 255;
+    --colour-foreground: 23 23 23;
+  }  
+
+  :root [class="dark"] {
+    --colour-background: 10 10 10;
+    --colour-foreground: 237 237 237;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+  }
+}
